@@ -22,7 +22,7 @@ module.exports = {
       'A starter template to build amazing static websites with Gatsby, Contentful and Netlify',
     siteUrl: 'https://gcn.netlify.com',
     image: '/images/logo png.png',
-    menuLinks: [git 
+    menuLinks:[
       {
         name: 'Home ',
         slug: 'https://www.hplumbers.com/',
