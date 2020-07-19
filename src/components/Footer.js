@@ -13,7 +13,7 @@ const Wrapper = styled.footer`
 const List = styled.ul`
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: flex-start;
   width: 100%;
   border-top: 1px solid ${props => props.theme.colors.secondary};
@@ -46,34 +46,66 @@ const Footer = () => (
     <List>
       <Item>
         <a
-          href="https://www.contentful.com/"
+          href="https://www.facebook.com/HPlumbers/"
           rel="nofollow noopener noreferrer"
           target="_blank"
         >
           <img
-            src="https://images.ctfassets.net/fo9twyrwpveg/44baP9Gtm8qE2Umm8CQwQk/c43325463d1cb5db2ef97fca0788ea55/PoweredByContentful_LightBackground.svg"
-            style={{ width: '100px' }}
-            alt="Powered by Contentful"
+            src="/images/fb.svg"
+            style={{ width: '50px' }}
+            alt="Powered by HPlumber"
           />
-        </a>
-      </Item>
+        
+        </a> 
+      </Item>&nbsp;
+    
       <Item>
         <a
-          href="https://github.com/ryanwiemer/gatsby-starter-gcn"
+          href="https://twitter.com/hplumbers1"
           target="_blank"
           rel="noopener noreferrer"
         >
-          gatsby-starter-gcn
-        </a>{' '}
-        by{' '}
-        <a
-          href="https://github.com/ryanwiemer"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          @ryanwiemer
+           <img
+            src="/images/twitter.svg"
+            style={{ width: '50px' }}
+            alt="Powered by HPlumber"
+          />
+           
         </a>
+       
+      </Item>&nbsp;
+      <Item>
+        <a
+          href="https://www.instagram.com/hplumbers/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+           <img
+            src="/images/insta.svg"
+            style={{ width: '50px' }}
+            alt="Powered by HPlumber"
+          />
+           
+        </a>
+       
+      </Item>&nbsp;
+      <Item>
+        <a
+          href="https://www.linkedin.com/company/hplumbers"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+           <img
+            src="/images/linkedin.svg"
+            style={{ width: '55px' }}
+            alt="Powered by HPlumber"
+          />
+           
+        </a>
+       
       </Item>
+
+      
     </List>
   </Wrapper>
 )

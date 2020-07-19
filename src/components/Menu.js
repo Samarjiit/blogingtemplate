@@ -6,6 +6,7 @@ import { useSiteMetadata } from '../hooks/use-site-metadata'
 const Header = styled.header`
   background: ${props => props.theme.colors.primary};
   width: 100%;
+
   padding: 1.5em 0;
 `
 const Nav = styled.nav`
@@ -51,6 +52,7 @@ const Menu = () => {
     <Header>
       <Nav>
         <ul>
+          
           {menuLinks.map(link => (
             <li key={link.name}>
               <Link to={link.slug} activeStyle={activeLinkStyle}>
@@ -58,6 +60,7 @@ const Menu = () => {
               </Link>
             </li>
           ))}
+      
         </ul>
       </Nav>
     </Header>

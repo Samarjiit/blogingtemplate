@@ -17,23 +17,24 @@ try {
 
 module.exports = {
   siteMetadata: {
-    title: 'GCN',
+    title: 'hplumbers|blogs',
     description:
       'A starter template to build amazing static websites with Gatsby, Contentful and Netlify',
     siteUrl: 'https://gcn.netlify.com',
-    image: '/images/share.jpg',
-    menuLinks: [
+    image: '/images/logo png.png',
+    menuLinks: [git 
       {
-        name: 'Home',
+        name: 'Home ',
+        slug: 'https://www.hplumbers.com/',
+      },
+
+      {
+        name: 'Blogs',
         slug: '/',
       },
       {
         name: 'About',
         slug: '/about/',
-      },
-      {
-        name: 'Contact',
-        slug: '/contact/',
       },
     ],
     postsPerFirstPage: 7,
@@ -74,7 +75,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: process.env.GOOGLE_ANALYTICS,
+        trackingId: 'UA-160386773-1',
         head: true,
       },
     },
