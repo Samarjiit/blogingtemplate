@@ -22,7 +22,7 @@ A starter template to build amazing static websites with Gatsby, Contentful and 
 
 https://blog.hplumbers.com/
 
-![](screenshots/demo.jpg)
+![](screenshots/ss.png)
 
 ## Getting Started
 
