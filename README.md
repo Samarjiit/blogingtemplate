@@ -1,4 +1,4 @@
-# gatsby-starter-gcn
+# gatsby-blog-template
 
 A starter template to build amazing static websites with Gatsby, Contentful and Netlify. Inspired by [gatsby-contentful-starter](https://github.com/contentful-userland/gatsby-contentful-starter).
 
@@ -20,7 +20,7 @@ A starter template to build amazing static websites with Gatsby, Contentful and 
 
 ## Demo
 
-https://gcn.netlify.com/
+https://blog.hplumbers.com/
 
 ![](screenshots/demo.jpg)
 
@@ -119,15 +119,6 @@ export default {
 }
 ```
 
-### Using Gatsby Standard
-
-1.  Quickly check your code for errors with the `yarn test` script
-2.  You can view the [Gatsby Standard README](https://github.com/brandonkal/eslint-config-gatsby-standard) for details on how to integrate this project's included Gatsby Standard, Stylelint, and Prettier modules into your text editor
-
-### Content and SEO
-
-1.  You can replace the `share.jpg` and `favicon.png` files in the `static/images` directory.
-2.  Meta descriptions are defined in Contentful. If you choose to leave this field blank on new posts a 320 character excerpt of the post/page will be used instead.
 
 ## Deployment
 
